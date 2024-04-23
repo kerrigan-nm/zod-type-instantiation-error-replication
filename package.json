@@ -1,0 +1,15 @@
+{
+  "name": "zod-type-instantiation-error-replication",
+  "version": "1.0.0",
+  "description": "Replicating the 'Type instantiation is excessively deep and possibly infinite.' error with zod",
+  "scripts": {
+    "start": "rm -rf lib && tsc"
+  },
+  "author": "Kerrigan Joseph <karjaneth@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "5.3.3",
+    "zod-3.23.0": "npm:zod@3.23.0",
+    "zod-3.23.1": "npm:zod@3.23.1"
+  }
+}
